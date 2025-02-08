@@ -3,9 +3,9 @@ int main(){
     int a;
     scanf("%d",&a);
     printf("%d",a);
-   while (num > 0) {
-        printf("%d", num % 2);
-        num /= 2;
+   while (a > 0) {
+        printf("%d", a % 2);
+       a /= 2;
     
     return 0;
    }
