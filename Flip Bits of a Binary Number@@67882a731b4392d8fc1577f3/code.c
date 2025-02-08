@@ -7,8 +7,7 @@ int main() {
     unsigned int num;
     scanf("%u", &num);
     unsigned int flippedNum = flipBits(num);
-    printf("Original number in binary: ");
-    for (int i = 31; i >= 0; i--) {
+  for (int i = 31; i >= 0; i--) {
         printf("%d", (num >> i) & 1);
     }
     for (int i = 31; i >= 0; i--) {
