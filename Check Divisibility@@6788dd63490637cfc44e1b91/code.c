@@ -8,5 +8,5 @@ int msin(){
     printf("Not Divisible");
     
     return 0;
-}
+
 }
