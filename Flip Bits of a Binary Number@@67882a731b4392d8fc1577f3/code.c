@@ -11,15 +11,11 @@ int main() {
     for (int i = 31; i >= 0; i--) {
         printf("%d", (num >> i) & 1);
     }
-    printf("\n");
-    
-    printf("Flipped number in binary:  ");
     for (int i = 31; i >= 0; i--) {
         printf("%d", (flippedNum >> i) & 1);
     }
-    printf("\n");
     
-    printf("Flipped number (decimal): %u\n", flippedNum);
+    printf("%u", flippedNum);
     
     return 0;
 }
