@@ -3,9 +3,10 @@ int main(){
     int a;
     scanf("%d",&a);
     printf("%d",a);
-    for (int i = 31; i >= 0; i--) {
-        printf("%d", (a >> i) & 1);
-    }
+   while (num > 0) {
+        printf("%d", num % 2);
+        num /= 2;
     
     return 0;
-}
+   }
+   }
