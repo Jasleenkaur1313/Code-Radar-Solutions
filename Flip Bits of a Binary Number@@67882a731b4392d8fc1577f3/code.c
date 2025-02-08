@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int num;
-    scanf("%u", &num);
-    printf("%u", ~num);
-    
+    int a;
+    scanf("%d", &a);
+    printf("%d", ~a);
     return 0;
 }
 
