@@ -9,14 +9,11 @@ int main(){
                 break;
             }
         }
-        if(fact==0)
-        {
+        if(fact==0){
             printf("Prime");
             }
-        else
-       {
+        else{
         printf("Not Prime");
         }
     
-    return 0;
 }
