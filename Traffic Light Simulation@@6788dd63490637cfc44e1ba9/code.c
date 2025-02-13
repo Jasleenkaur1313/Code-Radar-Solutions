@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char a;
+    char ch a;
     scanf("%c",&a);{
         if(a==R)
         printf("Stop");
