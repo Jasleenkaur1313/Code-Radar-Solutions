@@ -5,7 +5,7 @@ int main(){
     switch(a){
         case 1:
         printf("31");
-        break:
+        break;
         case 2:
         printf("28");
         break;
