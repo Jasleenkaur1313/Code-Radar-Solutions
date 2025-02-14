@@ -2,34 +2,30 @@
 
 int main() {
     int num1, num2;
-    char op;
-
-    // Taking input
-    if (scanf("%d %d %c", &num1, &num2, &op) != 3) {
+    char ch;
+    if (scanf("%d %d %c", &a, &b, &ch)) {
         printf("error\n");
         return 1;
     }
-
-    // Performing operation
-    switch (op) {
+    switch (ch) {
         case '+':
-            printf("%d\n", num1 + num2);
+            printf("%d\n", a + b);
             break;
         case '-':
-            printf("%d\n", num1 - num2);
+            printf("%d\n", a-b);
             break;
         case '*':
-            printf("%d\n", num1 * num2);
+            printf("%d\n", a*b);
             break;
         case '/':
-            if (num2 == 0) {
-                printf("error\n");  // Handling division by zero
+            if (b == 0) {
+                printf("error");  
             } else {
-                printf("%d\n", num1 / num2);
+                printf("%d\n", a / b);
             }
             break;
         default:
-            printf("error\n");  // Handling invalid operators
+            printf("error\n");  
     }
 
     return 0;
