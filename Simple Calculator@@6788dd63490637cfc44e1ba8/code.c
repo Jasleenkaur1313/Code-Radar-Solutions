@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     char ch;
-    if (scanf("%d %d %c", &a, &b, &ch)) {
+    if (scanf("%d %d %c", &a, &b, &ch)!=3) {
         printf("error\n");
         return 1;
     }
