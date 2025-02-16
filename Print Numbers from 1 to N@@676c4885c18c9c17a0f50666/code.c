@@ -2,11 +2,12 @@
 int main(){
     int n,i=1;
     scanf("%d",&n);
+    if (n > 0) {
    do {
         printf("%d ",i);
         ++i;
     }
-     while(i<=n);
+     while(i<=n);}
     return 0;
 }
 
