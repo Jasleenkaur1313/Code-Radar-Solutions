@@ -1,13 +1,10 @@
 #include <stdio.h>
 int main(){
-    int n,i=1;
-    scanf("%d",&n);
-    if (n > 0) {
-   do {
+    int N,i;
+    scanf("%d",%N);
+    for(i=1;i<=N;i++){
         printf("%d ",i);
-        ++i;
     }
-     while(i<=n);}
     return 0;
 }
 
